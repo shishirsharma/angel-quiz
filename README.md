@@ -8,6 +8,11 @@
 - Linked List
 
 
+<details><summary>Answer</summary>
+<p>
+Set
+</p>
+</details>
 
 ### 7. Given a function to reverse a linked list, which one of these lines is not required?
 
@@ -31,6 +36,14 @@ public static Node reverseLinkedList(Node current) {
 * `current = next;`
 
 
+<details><summary>Answer</summary><p>
+
+```
+prev.next = current
+```
+
+</p></details>
+
 
 ### 9. What is the value of k?
 
@@ -49,6 +62,13 @@ for (i = 0; i < 3; i++) {
 * 2
 
 
+<details><summary>Answer</summary><p>
+
+```
+2
+```
+
+</p></details>
 
 ### 11. What's the run-time complexity of this function?
 
@@ -66,18 +86,26 @@ int mystery(int n) {
 * O(2^n)
 
 
+<details><summary>Answer</summary><p>
+
+```
+O(2^n)
+```
+
+[Time complexity of recursive Fibonacci program](https://www.geeksforgeeks.org/time-complexity-recursive-fibonacci-program/)
+</p></details>
 
 ### 12. What does this function do?
 
 ``` python
 def mystery(alist):
     for index in range(1, len(alist)):
-    pos = index
-    current = alist[index]
-    while pos > 0 and alist[pos-1] > current:
-        alist[pos] = alist[pos-1]
-        pos = pos - 1
-    alist[pos] = current
+        pos = index
+        current = alist[index]
+        while pos > 0 and alist[pos-1] > current:
+            alist[pos] = alist[pos-1]
+            pos = pos - 1
+        alist[pos] = current
 ```
 
 * reverses list
@@ -86,15 +114,13 @@ def mystery(alist):
 * removes smallest element from alist
 
 
+<details><summary>Answer</summary><p>
 
-## Answers
+```
+sorts list
+```
 
-3. ?
+</p></details>
 
-7. ?
 
-9. ?
 
-11. ?
-
-12. ?
