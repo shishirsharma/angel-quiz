@@ -62,6 +62,13 @@ for (i = 0; i < 3; i++) {
 * 2
 
 
+<details><summary>Answer</summary><p>
+
+```
+2
+```
+
+</p></details>
 
 ### 11. What's the run-time complexity of this function?
 
@@ -79,6 +86,14 @@ int mystery(int n) {
 * O(2^n)
 
 
+<details><summary>Answer</summary><p>
+
+```
+O(2^n)
+```
+
+[Time complexity of recursive Fibonacci program](https://www.geeksforgeeks.org/time-complexity-recursive-fibonacci-program/)
+</p></details>
 
 ### 12. What does this function do?
 
@@ -97,5 +112,15 @@ def mystery(alist):
 * does nothing
 * sorts list
 * removes smallest element from alist
+
+
+<details><summary>Answer</summary><p>
+
+```
+sorts list
+```
+
+</p></details>
+
 
 
