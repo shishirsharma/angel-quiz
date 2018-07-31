@@ -36,6 +36,14 @@ public static Node reverseLinkedList(Node current) {
 * `current = next;`
 
 
+<details><summary>Answer</summary>
+<p>
+```
+prev.next = current
+```
+</p>
+</details>
+
 
 ### 9. What is the value of k?
 
