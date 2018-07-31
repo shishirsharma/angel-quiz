@@ -8,6 +8,11 @@
 - Linked List
 
 
+<details><summary>Answer</summary>
+<p>
+Set
+</p>
+</details>
 
 ### 7. Given a function to reverse a linked list, which one of these lines is not required?
 
@@ -72,12 +77,12 @@ int mystery(int n) {
 ``` python
 def mystery(alist):
     for index in range(1, len(alist)):
-    pos = index
-    current = alist[index]
-    while pos > 0 and alist[pos-1] > current:
-        alist[pos] = alist[pos-1]
-        pos = pos - 1
-    alist[pos] = current
+        pos = index
+        current = alist[index]
+        while pos > 0 and alist[pos-1] > current:
+            alist[pos] = alist[pos-1]
+            pos = pos - 1
+        alist[pos] = current
 ```
 
 * reverses list
@@ -86,15 +91,3 @@ def mystery(alist):
 * removes smallest element from alist
 
 
-
-## Answers
-
-3. ?
-
-7. ?
-
-9. ?
-
-11. ?
-
-12. ?
